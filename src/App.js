@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         UI/UX PORTFOLIO APP Update Comp with Local APP
+         video.js and typescript installed
         </p>
         <a
           className="App-link"
