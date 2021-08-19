@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
          video.js and typescript installed
+         move onto video integration
         </p>
         <a
           className="App-link"
