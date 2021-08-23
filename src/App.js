@@ -7,8 +7,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         video.js and typescript installed
-         move onto video integrationASDF
+         video.js atrhtdhnd typescriphdhfgt installed
+         move rtgherhonto video intygjhetdegrationASDF
         </p>
         <a
           className="App-link"
