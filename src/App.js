@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Selector from './components/UISelect/RenderSelector';
 
 export default function App () {
-
 
 
 
@@ -13,7 +13,8 @@ export default function App () {
         <p>
          Choose UI
         </p>
-        <img src={logo} className="App-logo" alt="logo" />
+        <Selector />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <a
           className="App-link"
           href="https://reactjs.org"
