@@ -11,7 +11,7 @@ export default function App () {
       <header className="App-header">
         
         <p>
-         Choose UI ASDF
+         Choose UI Afhrrrrr
         </p>
         <Selector />
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
