@@ -11,7 +11,7 @@ export default function App () {
       <header className="App-header">
         
         <p>
-         Choose UI or Video Project
+         Choose UI or Video Project IDK
         </p>
         <Selector />
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
