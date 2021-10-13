@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Selector from './components/UISelect/RenderSelector';
 
 export default function App () {
@@ -11,17 +11,17 @@ export default function App () {
       <header className="App-header">
         
         <p>
-         Choose UI or Video Projectfh
+         Choose...
         </p>
         <Selector />
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-        </a>
+        </a> */}
       </header>
     </div>
   );
