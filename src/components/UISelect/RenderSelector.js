@@ -64,7 +64,7 @@ export default function Selector(props) {
             color: "#46e38f",
             backgroundColor: "#615e5e",
             margin:"15px",
-            }} onClick={handleClick}>Load UI Ae</button>
+            }} onClick={handleClick}>Load UI A</button>
         </div>
         <div>
             <button style={{
@@ -72,7 +72,7 @@ export default function Selector(props) {
             color: "#46e38f",
             backgroundColor: "#615e5e",
             margin:"15px",
-            }} onClick={handleClick}>Load UI Be</button>
+            }} onClick={handleClick}>Load UI B</button>
         </div>
         <div>
             <button style={{
@@ -80,7 +80,7 @@ export default function Selector(props) {
             color: "#46e38f",
             backgroundColor: "#615e5e",
             margin:"15px",
-            }} onClick={handleClick}>Load UI ea</button>
+            }} onClick={handleClick}>Load UI C</button>
         </div>
     </div>
       
