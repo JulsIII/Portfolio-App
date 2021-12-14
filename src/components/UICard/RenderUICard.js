@@ -16,13 +16,7 @@ export default function Selector(props) {
     //set which UI Card to Render
   };
 
-//   const handleClickB = (e) => {
-//     console.log('***', 'Clicked B Btn!')
-//   };
 
-//   const handleClickC = (e) => {
-//     console.log('***', 'Clicked C Btn!')
-//   };
   
 //   useEffect(() => {
 //     axios
