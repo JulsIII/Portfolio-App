@@ -4,19 +4,19 @@ import { useParams } from "react-router-dom";
 // import axios from 'axios';
 
 export default function Selector(props) {
-  const [menu, setMenu] = useState();
+  const [uiChioce, setUiChioce] = useState();
 //   const [uicard, setUicard] = useState();  
 //   const history = useHistory();
 
 //   const { id } = useParams()
   // Change ^^^ that line and use a hook to obtain the :id parameter from the URL
 
-  const handleClickA = (e) => {
+  const handleClickA = (e) => {  //make Var point to UI1
     console.log('***', 'Clicked A Btn!')
-    // props.setUicard();
+    // props.setUiChioce();
   };
 
-  const handleClickB = (e) => {
+  const handleClickB = (e) => { //make Var point to UI2
     console.log('***', 'Clicked B Btn!')
   };
 
