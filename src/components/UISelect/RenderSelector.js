@@ -1,17 +1,29 @@
 import React, { useState, useEffect } from 'react';
+// import { useHistory } from 'react-router';
 import { useParams } from "react-router-dom";
 // import axios from 'axios';
 
 export default function Selector(props) {
   const [menu, setMenu] = useState();
+//   const [uicard, setUicard] = useState();  
+//   const history = useHistory();
 
 //   const { id } = useParams()
   // Change ^^^ that line and use a hook to obtain the :id parameter from the URL
 
-  const handleClick = (e) => {
-    console.log('***', 'Clicked a Btn!')
+  const handleClickA = (e) => {
+    console.log('***', 'Clicked A Btn!')
+    // props.setUicard();
   };
 
+  const handleClickB = (e) => {
+    console.log('***', 'Clicked B Btn!')
+  };
+
+  const handleClickC = (e) => {
+    console.log('***', 'Clicked C Btn!')
+  };
+  
 //   useEffect(() => {
 //     axios
     //   .get(`http://localhost:5000/api/movies/${id}`) // Study this endpoint with Postman
@@ -64,7 +76,7 @@ export default function Selector(props) {
             color: "#46e38f",
             backgroundColor: "#615e5e",
             margin:"15px",
-            }} onClick={handleClick}>Load UI A</button>
+            }} onClick={handleClickA}>Load UI A</button>
         </div>
         <div>
             <button style={{
@@ -72,7 +84,7 @@ export default function Selector(props) {
             color: "#46e38f",
             backgroundColor: "#615e5e",
             margin:"15px",
-            }} onClick={handleClick}>Load UI B</button>
+            }} onClick={handleClickB}>Load UI B</button>
         </div>
         <div>
             <button style={{
@@ -80,7 +92,7 @@ export default function Selector(props) {
             color: "#46e38f",
             backgroundColor: "#615e5e",
             margin:"15px",
-            }} onClick={handleClick}>Load UI C</button>
+            }} onClick={handleClickC}>Load UI C</button>
         </div>
     </div>
       
