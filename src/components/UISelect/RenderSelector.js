@@ -3,8 +3,10 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from "react-router-dom";
 // import axios from 'axios';
 
+// uVar
+
 export default function Selector(props) {
-  const [uiChioce, setUiChioce] = useState();
+  const [uiChioce, setUiChioce] = useState(uVar);
 //   const [uicard, setUicard] = useState();  
 //   const history = useHistory();
 
@@ -13,15 +15,17 @@ export default function Selector(props) {
 
   const handleClickA = (e) => {  //make Var point to UI1
     console.log('***', 'Clicked A Btn!')
-    // props.setUiChioce();
+    // props.setUiChioce(var1);
   };
 
   const handleClickB = (e) => { //make Var point to UI2
     console.log('***', 'Clicked B Btn!')
+        // props.setUiChioce(var2);
   };
 
   const handleClickC = (e) => {
     console.log('***', 'Clicked C Btn!')
+        // props.setUiChioce(var3);
   };
   
 //   useEffect(() => {
